@@ -16,7 +16,7 @@ export default function WhyWareXPage() {
       <div className="page-container">
         <div className="text-center py-16">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-            <h1 className="text-5xl font-black text-[#1A1A1A] mb-4">Why Choose <span className="gradient-text">WareX?</span></h1>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-black text-[#1A1A1A] mb-4 leading-tight">Why Choose <span className="gradient-text">WareX?</span></h1>
             <p className="text-[#333333] text-xl max-w-2xl mx-auto">We're not just another marketplace. We're a purpose-built system for Nepal's industrial equipments and parts ecosystem.</p>
           </motion.div>
         </div>
@@ -119,7 +119,7 @@ export default function WhyWareXPage() {
           <div className="absolute top-0 right-0 p-10 opacity-10">
             <Shield className="w-64 h-64 rotate-12" />
           </div>
-          <h2 className="text-3xl md:text-5xl font-black mb-8 relative z-10 leading-tight">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-black mb-8 relative z-10 leading-tight">
             Transforming Nepal’s equipments and parts ecosystem from reactive to connected & efficient
           </h2>
           <div className="w-24 h-1 bg-emerald-500 mx-auto mb-8 relative z-10" />

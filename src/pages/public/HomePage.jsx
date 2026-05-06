@@ -78,7 +78,7 @@ function AnimatedHeadline() {
   }, [charIdx, line])
 
   return (
-    <h1 className="text-5xl md:text-6xl lg:text-7xl font-black text-gray-900 leading-tight">
+    <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-black text-gray-900 leading-tight">
       {headline.slice(0, line).map((l, i) => (
         <span key={i} className={`block ${i === 0 ? 'gradient-text' : ''}`}>{l}</span>
       ))}
@@ -155,7 +155,7 @@ export default function HomePage() {
         <div className="page-container relative z-10 py-20">
           <div className="max-w-4xl">
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mb-6">
-              <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-purple-100 border border-purple-300 text-purple-700 text-sm font-semibold">
+              <span className="inline-flex items-center gap-2 px-3 py-1.5 md:px-4 md:py-2 rounded-full bg-purple-100 border border-purple-300 text-purple-700 text-[10px] sm:text-xs md:text-sm font-semibold">
                 <span className="w-2 h-2 bg-purple-700 rounded-full animate-pulse" />
                 Nepal's #1 B2B Industrial Equipments & Parts Platform
               </span>

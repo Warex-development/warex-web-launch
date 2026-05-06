@@ -24,7 +24,7 @@ export default function MembershipPage() {
       <div className="page-container">
         <div className="text-center py-16">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-            <h1 className="text-5xl font-black text-[#1A1A1A] mb-4">Membership Plans</h1>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-black text-[#1A1A1A] mb-4">Membership Plans</h1>
             <p className="text-[#333333] text-xl max-w-2xl mx-auto">
               Choose the plan that matches your sourcing needs. All prices in NPR. Cancel anytime.
             </p>

@@ -19,7 +19,7 @@ export default function LaunchingSoonPage() {
   }
 
   return (
-    <div className="min-h-screen bg-[#F8F8FA] text-[#1A1A1A] flex flex-col relative overflow-hidden font-sans">
+    <div className="min-h-screen bg-[#F8F8FA] text-[#1A1A1A] flex flex-col relative overflow-x-hidden font-sans w-full">
       {/* Premium Background */}
       <div className="absolute inset-0 z-0">
         <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_50%_0%,rgba(74,58,92,0.08)_0%,transparent_50%)]" />
@@ -28,19 +28,21 @@ export default function LaunchingSoonPage() {
         <div className="absolute inset-0 noise-bg opacity-20 pointer-events-none" />
       </div>
 
-      <div className="page-container relative z-10 flex-1 flex flex-col pt-32 pb-20">
+      <div className="page-container relative z-10 flex-1 flex flex-col pt-20 md:pt-32 pb-20 w-full">
         {/* Navigation */}
-        <motion.button
-          initial={{ opacity: 0, x: -10 }}
-          animate={{ opacity: 1, x: 0 }}
-          onClick={() => navigate(-1)}
-          className="group absolute top-12 left-8 flex items-center gap-2 text-[#4A3A5C]/60 hover:text-[#4A3A5C] transition-all font-semibold text-sm"
-        >
-          <div className="w-8 h-8 rounded-full border border-[#4A3A5C]/10 flex items-center justify-center group-hover:bg-[#F3F1F7] transition-colors">
-            <ArrowLeft className="w-4 h-4" />
-          </div>
-          <span>Back to Marketplace</span>
-        </motion.button>
+        <div className="mb-12 md:mb-0">
+          <motion.button
+            initial={{ opacity: 0, x: -10 }}
+            animate={{ opacity: 1, x: 0 }}
+            onClick={() => navigate(-1)}
+            className="group relative md:absolute top-0 md:top-12 left-0 md:left-8 flex items-center gap-2 text-[#4A3A5C]/60 hover:text-[#4A3A5C] transition-all font-semibold text-[10px] md:text-sm z-50"
+          >
+            <div className="w-6 h-6 md:w-8 md:h-8 rounded-full border border-[#4A3A5C]/10 flex items-center justify-center group-hover:bg-[#F3F1F7] transition-colors">
+              <ArrowLeft className="w-3 h-3 md:w-4 md:h-4" />
+            </div>
+            <span>Back to Marketplace</span>
+          </motion.button>
+        </div>
 
         <motion.div 
           variants={containerVariants}
@@ -60,7 +62,7 @@ export default function LaunchingSoonPage() {
 
             <motion.h1 
               variants={itemVariants}
-              className="text-7xl md:text-8xl lg:text-9xl font-black mb-8 tracking-tighter text-[#1A1A1A] leading-[0.9]"
+              className="text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-black mb-6 md:mb-8 tracking-tight md:tracking-tighter text-[#1A1A1A] leading-[1.1] md:leading-[0.9] text-balance mx-auto w-full"
             >
               Coming <span className="gradient-text">Soon.</span>
             </motion.h1>
@@ -80,8 +82,8 @@ export default function LaunchingSoonPage() {
             className="relative max-w-3xl mx-auto mb-24"
           >
             <div className="absolute inset-0 bg-gradient-to-r from-[#4A3A5C] to-[#574B66] blur-2xl opacity-10" />
-            <div className="relative glass-card border-none p-16 overflow-hidden bg-white/80 backdrop-blur-xl shadow-2xl rounded-[3rem]">
-              <div className="absolute top-0 right-0 p-12 opacity-5">
+            <div className="relative glass-card border-none p-8 md:p-16 overflow-hidden bg-white/80 backdrop-blur-xl shadow-2xl rounded-3xl md:rounded-[3rem]">
+              <div className="absolute top-0 right-0 p-12 opacity-5 hidden lg:block">
                 <Rocket className="w-48 h-48 -rotate-45" />
               </div>
               
@@ -90,7 +92,7 @@ export default function LaunchingSoonPage() {
                 <motion.div 
                   animate={{ scale: [1, 1.02, 1] }}
                   transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
-                  className="text-5xl md:text-7xl font-black text-[#1A1A1A]"
+                  className="text-3xl sm:text-4xl md:text-7xl font-black text-[#1A1A1A] leading-tight"
                 >
                   30th <span className="text-emerald-500">May</span> 2026
                 </motion.div>
@@ -127,7 +129,7 @@ export default function LaunchingSoonPage() {
                 key={i}
                 variants={itemVariants}
                 whileHover={{ y: -5 }}
-                className="bg-white border border-[#E5E5E5] p-10 rounded-[2rem] shadow-sm hover:shadow-xl transition-all duration-300 group"
+                className="bg-white border border-[#E5E5E5] p-6 sm:p-10 rounded-2xl sm:rounded-[2rem] shadow-sm hover:shadow-xl transition-all duration-300 group"
               >
                 <div className={`w-14 h-14 rounded-2xl ${item.accent} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}>
                   <item.icon className="w-6 h-6" />
@@ -145,7 +147,7 @@ export default function LaunchingSoonPage() {
           >
             <p className="text-[10px] font-black uppercase tracking-[0.5em] text-[#4A3A5C]/30 mb-12 text-center">Targeted Industrial Ecosystem</p>
             
-            <div className="relative flex overflow-x-hidden border-y border-[#E5E5E5] bg-white py-8">
+            <div className="relative overflow-x-hidden border-y border-[#E5E5E5] bg-white py-8 w-full">
               <div className="animate-marquee flex gap-10 whitespace-nowrap items-center">
                 {['Steel', 'Hydro', 'Cement', 'Brewery', 'Dairy', 'FMCG', 'Pumps', 'Boilers', 'VFD', 'PLC', 'Instrumentation', 'Thermax', 'Alfa Laval', 'Grundfos'].map((item, i) => (
                   <div key={i} className="flex items-center gap-4">

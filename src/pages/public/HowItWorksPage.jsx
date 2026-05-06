@@ -57,7 +57,7 @@ export default function HowItWorksPage() {
         {/* Header */}
         <div className="text-center py-16">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-            <h1 className="text-5xl font-black text-[#1A1A1A] mb-6">How WareX Works</h1>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-black text-[#1A1A1A] mb-6">How WareX Works</h1>
             <p className="text-[#333333] text-xl max-w-3xl mx-auto">
               Building a smarter Nepal industrial ecosystem where unused inventory from one factory becomes a valuable resource for another — helping industries reduce waste, unlock working capital, and improve operational efficiency.
             </p>
