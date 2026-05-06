@@ -7,7 +7,7 @@ export default function LaunchingSoonPage() {
 
   const containerVariants = {
     hidden: { opacity: 0 },
-    visible: { 
+    visible: {
       opacity: 1,
       transition: { staggerChildren: 0.15 }
     }
@@ -44,7 +44,7 @@ export default function LaunchingSoonPage() {
           </motion.button>
         </div>
 
-        <motion.div 
+        <motion.div
           variants={containerVariants}
           initial="hidden"
           animate="visible"
@@ -60,24 +60,24 @@ export default function LaunchingSoonPage() {
               Launching Q2 2026
             </motion.div>
 
-            <motion.h1 
+            <motion.h1
               variants={itemVariants}
               className="text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-black mb-6 md:mb-8 tracking-tight md:tracking-tighter text-[#1A1A1A] leading-[1.1] md:leading-[0.9] text-balance mx-auto w-full"
             >
               Coming <span className="gradient-text">Soon.</span>
             </motion.h1>
 
-            <motion.p 
+            <motion.p
               variants={itemVariants}
               className="text-xl md:text-2xl text-[#666666] font-medium max-w-3xl mx-auto leading-relaxed"
             >
-              WareX — The Common Bank for Industrial equipment’s and Spares. <br className="hidden md:block" />
+              WareX — The Common Bank for Industrial Equipments and Parts. <br className="hidden md:block" />
               Redefining how industries manage non-moving inventory through a smart and trusted industrial e-commerce ecosystem.
             </motion.p>
           </div>
 
           {/* Launch Date Card - Simplified */}
-          <motion.div 
+          <motion.div
             variants={itemVariants}
             className="relative max-w-3xl mx-auto mb-24"
           >
@@ -86,10 +86,10 @@ export default function LaunchingSoonPage() {
               <div className="absolute top-0 right-0 p-12 opacity-5 hidden lg:block">
                 <Rocket className="w-48 h-48 -rotate-45" />
               </div>
-              
+
               <div className="relative z-10 flex flex-col items-center">
                 <span className="text-[#4A3A5C] font-black text-sm tracking-[0.5em] uppercase mb-4">Official Launch Date</span>
-                <motion.div 
+                <motion.div
                   animate={{ scale: [1, 1.02, 1] }}
                   transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
                   className="text-3xl sm:text-4xl md:text-7xl font-black text-[#1A1A1A] leading-tight"
@@ -106,26 +106,26 @@ export default function LaunchingSoonPage() {
           {/* Features Grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
             {[
-              { 
-                icon: Shield, 
-                title: 'Admin-Verified', 
+              {
+                icon: Shield,
+                title: 'Admin-Verified',
                 desc: 'All industrial equipments and parts are manually inspected by the WareX team before validation.',
                 accent: 'bg-emerald-50 text-emerald-600'
               },
-              { 
-                icon: Zap, 
-                title: 'Smarter Sourcing', 
+              {
+                icon: Zap,
+                title: 'Smarter Sourcing',
                 desc: 'Locate critical components faster. Reduce your factory downtime and unlock working capital.',
                 accent: 'bg-[#F3F1F7] text-[#4A3A5C]'
               },
-              { 
-                icon: Globe, 
-                title: 'Industrial Network', 
+              {
+                icon: Globe,
+                title: 'Industrial Network',
                 desc: 'A unified ecosystem connecting Nepal\'s industrial hubs for better efficiency.',
                 accent: 'bg-blue-50 text-blue-600'
               },
             ].map((item, i) => (
-              <motion.div 
+              <motion.div
                 key={i}
                 variants={itemVariants}
                 whileHover={{ y: -5 }}
@@ -141,12 +141,12 @@ export default function LaunchingSoonPage() {
           </div>
 
           {/* Premium Industrial Ticker */}
-          <motion.div 
+          <motion.div
             variants={itemVariants}
             className="mt-12 pt-16 border-t border-[#E5E5E5] w-full"
           >
             <p className="text-[10px] font-black uppercase tracking-[0.5em] text-[#4A3A5C]/30 mb-12 text-center">Targeted Industrial Ecosystem</p>
-            
+
             <div className="relative overflow-x-hidden border-y border-[#E5E5E5] bg-white py-8 w-full">
               <div className="animate-marquee flex gap-10 whitespace-nowrap items-center">
                 {['Steel', 'Hydro', 'Cement', 'Brewery', 'Dairy', 'FMCG', 'Pumps', 'Boilers', 'VFD', 'PLC', 'Instrumentation', 'Thermax', 'Alfa Laval', 'Grundfos'].map((item, i) => (
@@ -184,7 +184,7 @@ export default function LaunchingSoonPage() {
       <div className="py-12 border-t border-[#E5E5E5] bg-white relative z-10">
         <div className="page-container flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex flex-col items-center md:items-start">
-            <span className="text-xs font-black text-[#1A1A1A] tracking-[0.4em] uppercase mb-1">WareX Exchange</span>
+            <span className="text-xs font-black text-[#1A1A1A] tracking-[0.4em] uppercase mb-1">WareX</span>
             <span className="text-[10px] font-bold text-[#4A3A5C]/40 uppercase tracking-widest">Connect • Share • Save</span>
           </div>
           <div className="text-[10px] text-[#999999] font-bold uppercase tracking-widest text-center">

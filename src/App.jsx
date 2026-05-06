@@ -14,6 +14,8 @@ import IndustriesPage from './pages/public/IndustriesPage'
 import AboutPage from './pages/public/AboutPage'
 import ContactPage from './pages/public/ContactPage'
 import FAQPage from './pages/public/FAQPage'
+import PrivacyPolicyPage from './pages/public/PrivacyPolicyPage'
+import TermsOfServicePage from './pages/public/TermsOfServicePage'
 import LoginPage from './pages/auth/LoginPage'
 import AdminLoginPage from './pages/auth/AdminLoginPage'
 import RegisterPage from './pages/auth/RegisterPage'
@@ -161,6 +163,8 @@ export default function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/faq" element={<FAQPage />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+          <Route path="/terms-of-service" element={<TermsOfServicePage />} />
         </Route>
 
         <Route path="/launching-soon" element={<LaunchingSoonPage />} />

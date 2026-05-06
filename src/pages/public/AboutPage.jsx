@@ -72,6 +72,28 @@ export default function AboutPage() {
         </div>
       </motion.section>
 
+      {/* Leadership Section */}
+      <motion.section
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        className="page-container py-12"
+      >
+        <div className="max-w-xl mx-auto text-center">
+          <h2 className="text-sm font-bold text-[#4A3A5C]/60 tracking-[0.2em] uppercase mb-12">Leadership</h2>
+          <div className="bg-white border border-[#E5E5E5] p-10 rounded-2xl shadow-sm hover:shadow-md transition group">
+            <div className="w-24 h-24 bg-[#4A3A5C]/5 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-[#4A3A5C]/10 transition">
+              <Users className="w-10 h-10 text-[#4A3A5C]" />
+            </div>
+            <h3 className="text-2xl font-bold text-[#1A1A1A]">Rohit Karmakar</h3>
+            <p className="text-lg text-[#4A3A5C] font-semibold mt-1">Founder & CEO</p>
+            <div className="mt-6 pt-6 border-t border-[#F1F1F1] text-sm text-[#666666] italic">
+              "Building the backbone of industrial efficiency through trust and transparency."
+            </div>
+          </div>
+        </div>
+      </motion.section>
+
       {/* CTA Section */}
       <motion.section
         initial={{ opacity: 0 }}
