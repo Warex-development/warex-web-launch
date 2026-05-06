@@ -16,21 +16,21 @@ export const INDUSTRIES = [
 export const TESTIMONIALS = [
   {
     quote: 'WareX saved our production line. We got a matched SKF bearing within 24 hours without revealing which plant needed it. Pure magic.',
-    company: 'Arghakhanchi Cement',
+    company: 'Verified Member',
     role: 'Maintenance Manager',
-    initials: 'AM',
+    initials: 'WX',
   },
   {
     quote: 'As a seller, I get real inquiries without worrying about competitors knowing my inventory. The platform is built for serious industrial folks.',
-    company: 'Himalayan Parts Traders',
-    role: 'Director',
-    initials: 'HP',
+    company: 'Verified Member',
+    role: 'Business Director',
+    initials: 'WX',
   },
   {
     quote: 'The admin review process gives us confidence that every part listed is genuine. This is what Nepal\'s industry needed.',
-    company: 'Butwal Power Company',
+    company: 'Verified Member',
     role: 'Procurement Head',
-    initials: 'BPC',
+    initials: 'WX',
   },
 ];
 
