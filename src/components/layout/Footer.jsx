@@ -59,21 +59,9 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Developer */}
           <div>
-            <h4 className="text-white font-semibold mb-4">Developer</h4>
+            <h4 className="text-white font-semibold mb-4">Support</h4>
             <ul className="space-y-3">
-              <li>
-                <a
-                  href="https://brandnestagency.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-[#E8DDF5] hover:text-white text-sm transition-colors"
-                >
-                  <span>Developed by BrandNest</span>
-                  <ExternalLink className="w-3.5 h-3.5" />
-                </a>
-              </li>
               <li>
                 <a
                   href="https://tushkarmakar.vercel.app/client"
@@ -81,7 +69,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-[#E8DDF5] hover:text-white text-sm transition-colors"
                 >
-                  <span>Direct Developer</span>
+                  <span>Contact Developer</span>
                   <ExternalLink className="w-3.5 h-3.5" />
                 </a>
               </li>
