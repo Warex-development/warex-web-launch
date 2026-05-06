@@ -186,7 +186,7 @@ export default function LaunchingSoonPage() {
             <span className="text-[10px] font-bold text-[#4A3A5C]/40 uppercase tracking-widest">Connect • Share • Save</span>
           </div>
           <div className="text-[10px] text-[#999999] font-bold uppercase tracking-widest text-center">
-            © 2026 WareX Industrial Ecosystems. All Rights Reserved.
+            © 2026 WareX. Developed by <a href="https://brandnestagency.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-[#4A3A5C] hover:underline transition-all">BrandNest</a>.
           </div>
           <div className="flex gap-8">
             <span className="text-[10px] font-bold text-[#666666] uppercase tracking-widest hover:text-[#4A3A5C] cursor-pointer">Privacy</span>
