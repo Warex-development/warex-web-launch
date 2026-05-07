@@ -22,8 +22,8 @@ export default function PrivacyPolicyPage() {
     {
       title: "3. The Anonymity System",
       content: [
-        "WareX is built on a 'Confidentiality First' principle. Your company identity is never publicly displayed to other members of the platform.",
-        "Identities are replaced with unique WareX codes (e.g., WX-S-001) during the listing, searching, and quoting phases.",
+        "WareXhub is built on a 'Confidentiality First' principle. Your company identity is never publicly displayed to other members of the platform.",
+        "Identities are replaced with unique WareXhub codes (e.g., WX-S-001) during the listing, searching, and quoting phases.",
         "Only after a mutual agreement or deal confirmation is reached can business identities be shared, and only through our secure communication channels."
       ]
     },
@@ -31,16 +31,16 @@ export default function PrivacyPolicyPage() {
       title: "4. Data Security",
       content: [
         "We implement industry-standard encryption and security protocols to protect your sensitive business data.",
-        "Access to real identities and documentation is restricted to authorized WareX administrative personnel only.",
+        "Access to real identities and documentation is restricted to authorized WareXhub administrative personnel only.",
         "While we strive for absolute security, no platform is 100% immune to risks; we encourage users to maintain secure credentials."
       ]
     },
     {
       title: "5. Third-Party Sharing",
       content: [
-        "WareX does not sell, trade, or rent your business information to third-party marketing companies.",
+        "WareXhub does not sell, trade, or rent your business information to third-party marketing companies.",
         "We may share data with service providers (e.g., hosting, analytics) who are contractually bound to maintain confidentiality.",
-        "Data may be disclosed if required by law or to protect the safety and rights of WareX and its members."
+        "Data may be disclosed if required by law or to protect the safety and rights of WareXhub and its members."
       ]
     },
     {
@@ -96,7 +96,7 @@ export default function PrivacyPolicyPage() {
       >
         <p className="text-sm text-[#666666] text-center">
           If you have questions about our Privacy Policy, please contact our data protection team at 
-          <a href="mailto:privacy@warex.com" className="text-[#4A3A5C] font-semibold ml-1">privacy@warex.com</a>
+          <a href="mailto:privacy@warexhub.com" className="text-[#4A3A5C] font-semibold ml-1">privacy@warexhub.com</a>
         </p>
       </motion.div>
     </div>

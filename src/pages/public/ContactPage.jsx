@@ -23,7 +23,7 @@ export default function ContactPage() {
   }
 
   const contactInfo = [
-    { icon: Mail, label: 'Email', value: 'support@warex.np', href: 'mailto:support@warex.np' },
+    { icon: Mail, label: 'Email', value: 'support@warexhub.np', href: 'mailto:support@warexhub.np' },
     { icon: Phone, label: 'Phone', value: '+977-1-5555-0001', href: 'tel:+97715555001' },
     { icon: MapPin, label: 'Address', value: 'Lalitpur, Nepal' },
     { icon: Clock, label: 'Hours', value: 'Mon-Fri, 9 AM - 6 PM NPT' },
@@ -165,7 +165,7 @@ export default function ContactPage() {
         <h2 className="text-3xl font-bold text-white mb-12 text-center">Frequently Asked Questions</h2>
         <div className="max-w-3xl mx-auto space-y-4">
           {[
-            { q: 'What is WareX?', a: 'WareX is a confidential B2B platform for sourcing industrial equipments and parts in Nepal with full anonymity and admin-backed verification.' },
+            { q: 'What is WareXhub?', a: 'WareXhub is a confidential B2B platform for sourcing industrial equipments and parts in Nepal with full anonymity and admin-backed verification.' },
             { q: 'How do I join?', a: 'Sign up on our registration page with your company details. We review and approve new members within 24-48 hours.' },
             { q: 'Is there a membership fee?', a: 'Yes, we offer flexible plans starting at NPR 2,999/month. Choose based on your listing and transaction needs.' },
             { q: 'How confidential is the platform?', a: 'Complete anonymity. Buyers never see seller details and vice versa. All communication is through our system using codes only.' },

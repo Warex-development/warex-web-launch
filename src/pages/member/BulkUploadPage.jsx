@@ -99,7 +99,7 @@ export default function BulkUploadPage() {
     const url = URL.createObjectURL(blob)
     const a = document.createElement('a')
     a.href = url
-    a.download = 'warex-bulk-upload-template.csv'
+    a.download = 'warexhub-bulk-upload-template.csv'
     document.body.appendChild(a)
     a.click()
     document.body.removeChild(a)

@@ -15,7 +15,7 @@ export const INDUSTRIES = [
 
 export const TESTIMONIALS = [
   {
-    quote: 'WareX saved our production line. We got a matched SKF bearing within 24 hours without revealing which plant needed it. Pure magic.',
+    quote: 'WareXhub saved our production line. We got a matched SKF bearing within 24 hours without revealing which plant needed it. Pure magic.',
     company: 'Verified Member',
     role: 'Maintenance Manager',
     initials: 'WX',

@@ -71,7 +71,7 @@ export default function LaunchingSoonPage() {
               variants={itemVariants}
               className="text-xl md:text-2xl text-[#666666] font-medium max-w-3xl mx-auto leading-relaxed"
             >
-              WareX — The Common Bank for Industrial Equipments and Parts. <br className="hidden md:block" />
+              WareXhub — The Common Bank for Industrial Equipments and Parts. <br className="hidden md:block" />
               Redefining how industries manage non-moving inventory through a smart and trusted industrial e-commerce ecosystem.
             </motion.p>
           </div>
@@ -109,7 +109,7 @@ export default function LaunchingSoonPage() {
               {
                 icon: Shield,
                 title: 'Admin-Verified',
-                desc: 'All industrial equipments and parts are manually inspected by the WareX team before validation.',
+                desc: 'All industrial equipments and parts are manually inspected by the WareXhub team before validation.',
                 accent: 'bg-emerald-50 text-emerald-600'
               },
               {
@@ -184,11 +184,11 @@ export default function LaunchingSoonPage() {
       <div className="py-12 border-t border-[#E5E5E5] bg-white relative z-10">
         <div className="page-container flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex flex-col items-center md:items-start">
-            <span className="text-xs font-black text-[#1A1A1A] tracking-[0.4em] uppercase mb-1">WareX</span>
+            <span className="text-xs font-black text-[#1A1A1A] tracking-[0.4em] uppercase mb-1">WareXhub</span>
             <span className="text-[10px] font-bold text-[#4A3A5C]/40 uppercase tracking-widest">Connect • Share • Save</span>
           </div>
           <div className="text-[10px] text-[#999999] font-bold uppercase tracking-widest text-center">
-            © 2026 WareX. Developed by <a href="https://brandnestagency.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-[#4A3A5C] hover:underline transition-all">BrandNest</a>.
+            © 2026 WareXhub. Developed by <a href="https://brandnestagency.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-[#4A3A5C] hover:underline transition-all">BrandNest</a>.
           </div>
           <div className="flex gap-8">
             <span className="text-[10px] font-bold text-[#666666] uppercase tracking-widest hover:text-[#4A3A5C] cursor-pointer">Privacy</span>

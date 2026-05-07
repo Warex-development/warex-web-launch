@@ -47,7 +47,7 @@ export const useAuthStore = create(
         // Force localStorage to clear by removing the persisted key
         if (typeof window !== 'undefined') {
           try {
-            localStorage.removeItem('warex-auth')
+            localStorage.removeItem('warexhub-auth')
           } catch (e) {
             console.warn('Could not clear localStorage:', e)
           }
@@ -94,7 +94,7 @@ export const useAuthStore = create(
       },
     }),
     {
-      name: 'warex-auth',
+      name: 'warexhub-auth',
     }
   )
 )

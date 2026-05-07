@@ -7,7 +7,7 @@ const FAQS = [
     category: 'Getting Started',
     questions: [
       {
-        q: 'How do I create an account on WareX?',
+        q: 'How do I create an account on WareXhub?',
         a: 'Visit the registration page, enter your company details, and submit. Our admin team verifies and approves within 24-48 hours. Once approved, you can log in and start buying or selling.'
       },
       {
@@ -66,11 +66,11 @@ const FAQS = [
     category: 'Confidentiality & Security',
     questions: [
       {
-        q: 'Is my business information safe on WareX?',
+        q: 'Is my business information safe on WareXhub?',
         a: 'Absolutely. All data is encrypted end-to-end. Your business name, location, and strategy never appear on the platform. You\'re identified only by codes (WX-S-001, etc.).'
       },
       {
-        q: 'How does WareX maintain anonymity?',
+        q: 'How does WareXhub maintain anonymity?',
         a: 'Buyer and seller identities are stored securely. Only our admin team sees real details. Trades happen using codes only. No direct contact is exposed.'
       },
       {
@@ -117,11 +117,11 @@ const FAQS = [
       },
       {
         q: 'What if there\'s a dispute?',
-        a: 'Our admin team mediates. Contact support with details. We review both sides and make a fair decision. The WareX guarantee protects both parties.'
+        a: 'Our admin team mediates. Contact support with details. We review both sides and make a fair decision. The WareXhub guarantee protects both parties.'
       },
       {
         q: 'Can I return items?',
-        a: 'Return policies are negotiated directly between you and the seller post-purchase. WareX facilitates communication through codes only.'
+        a: 'Return policies are negotiated directly between you and the seller post-purchase. WareXhub facilitates communication through codes only.'
       },
     ]
   },
@@ -165,7 +165,7 @@ export default function FAQPage() {
         <HelpCircle className="w-16 h-16 text-[#4A3A5C] mx-auto mb-6" />
         <h1 className="text-5xl font-bold text-[#1A1A1A] mb-6">Frequently Asked Questions</h1>
         <p className="text-xl text-[#333333] max-w-2xl mx-auto">
-          Find answers to common questions about WareX. If you need more help, <a href="/contact" className="text-[#4A3A5C] hover:text-[#574B66] font-semibold">contact us</a>.
+          Find answers to common questions about WareXhub. If you need more help, <a href="/contact" className="text-[#4A3A5C] hover:text-[#574B66] font-semibold">contact us</a>.
         </p>
       </motion.div>
 

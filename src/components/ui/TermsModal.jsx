@@ -13,7 +13,7 @@ export default function TermsModal({ isOpen, onClose, onAccept }) {
         <section>
           <h3 className="text-lg font-semibold text-white mb-2">Platform Overview</h3>
           <p className="text-slate-300">
-            WareX is a B2B intermediary platform that connects industrial parts buyers and sellers. We facilitate connections while maintaining strict anonymity and confidentiality protocols.
+            WareXhub is a B2B intermediary platform that connects industrial parts buyers and sellers. We facilitate connections while maintaining strict anonymity and confidentiality protocols.
           </p>
         </section>
 
@@ -43,17 +43,17 @@ export default function TermsModal({ isOpen, onClose, onAccept }) {
         <section>
           <h3 className="text-lg font-semibold text-white mb-2">Membership & Fees</h3>
           <ul className="space-y-2 list-disc list-inside">
-            <li>Membership fees are subject to WareX policy and subject to change</li>
+            <li>Membership fees are subject to WareXhub policy and subject to change</li>
             <li>Different membership tiers provide different benefits</li>
             <li>Fees are non-refundable unless stated otherwise</li>
-            <li>WareX reserves the right to modify pricing</li>
+            <li>WareXhub reserves the right to modify pricing</li>
           </ul>
         </section>
 
         <section>
           <h3 className="text-lg font-semibold text-white mb-2">Account Termination</h3>
           <p className="text-slate-300">
-            Fraudulent use, violation of terms, or illegal activities may cause immediate account termination. WareX reserves the right to suspend or ban users at its discretion.
+            Fraudulent use, violation of terms, or illegal activities may cause immediate account termination. WareXhub reserves the right to suspend or ban users at its discretion.
           </p>
         </section>
 
@@ -66,7 +66,7 @@ export default function TermsModal({ isOpen, onClose, onAccept }) {
 
         <div className="bg-purple-100 border border-purple-300 rounded-lg p-4 mt-6">
           <p className="text-sm text-purple-700">
-            <span className="font-semibold">✓ Confirmation:</span> By clicking "Accept", you agree to comply with all WareX Terms & Conditions.
+            <span className="font-semibold">✓ Confirmation:</span> By clicking "Accept", you agree to comply with all WareXhub Terms & Conditions.
           </p>
         </div>
       </div>

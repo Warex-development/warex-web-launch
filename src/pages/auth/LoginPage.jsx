@@ -81,7 +81,7 @@ export default function LoginPage() {
             <div className="w-9 h-9 bg-[#4A3A5C] rounded-xl flex items-center justify-center">
               <span className="text-white font-bold">W</span>
             </div>
-            <span className="text-2xl font-bold text-white">WareX</span>
+            <span className="text-2xl font-bold text-white">WareXhub</span>
           </Link>
         </div>
 
@@ -130,11 +130,11 @@ export default function LoginPage() {
             <div className="w-8 h-8 bg-[#4A3A5C] rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-sm">W</span>
             </div>
-            <span className="text-xl font-bold text-[#1A1A1A]">WareX</span>
+            <span className="text-xl font-bold text-[#1A1A1A]">WareXhub</span>
           </div>
 
           <h2 className="text-3xl font-bold text-[#1A1A1A] mb-1">Sign In</h2>
-          <p className="text-[#333333] mb-8">Access your WareX member dashboard</p>
+          <p className="text-[#333333] mb-8">Access your WareXhub member dashboard</p>
 
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
             <div>
@@ -193,7 +193,7 @@ export default function LoginPage() {
 
           <div className="mt-6 pt-6 border-t border-gray-100 text-center">
             <p className="text-sm text-gray-400 mb-3">
-              Are you a WareX Administrator?
+              Are you a WareXhub Administrator?
             </p>
             <button
               type="button"

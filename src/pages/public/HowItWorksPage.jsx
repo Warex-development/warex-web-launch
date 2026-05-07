@@ -21,27 +21,27 @@ const STEPS = [
   {
     num: '02',
     title: 'Admin Reviews & Approves',
-    subtitle: 'WareX quality control team verifies',
+    subtitle: 'WareXhub quality control team verifies',
     points: [
-      'Every listing is manually inspected by the WareX team',
+      'Every listing is manually inspected by the WareXhub team',
       'OEM numbers cross-referenced with manufacturer databases',
       'Condition claims verified, pricing checked against market rates',
       'Listings get LIVE status or sent back with correction codes (CR-01 to CR-08)',
     ],
     icon: '🔍',
     color: 'border-amber-500/40 bg-amber-500/5',
-    badge: 'WareX Action',
+    badge: 'WareXhub Action',
     badgeColor: 'bg-amber-500/20 text-amber-400',
   },
   {
     num: '03',
-    title: 'Buyer Requests → WareX Fulfills',
+    title: 'Buyer Requests → WareXhub Fulfills',
     subtitle: 'Trust-based matching & deal facilitation',
     points: [
       'Buyers search the verified catalogue for critical spares',
       'Send a quote request with description and urgency level',
-      'WareX matches requests to best-fit sellers using a scoring engine',
-      'Deal facilitated entirely through WareX — ensuring security and quality',
+      'WareXhub matches requests to best-fit sellers using a scoring engine',
+      'Deal facilitated entirely through WareXhub — ensuring security and quality',
     ],
     icon: '⚡',
     color: 'border-emerald-500/40 bg-emerald-500/5',
@@ -57,7 +57,7 @@ export default function HowItWorksPage() {
         {/* Header */}
         <div className="text-center py-16">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-black text-[#1A1A1A] mb-6">How WareX Works</h1>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-black text-[#1A1A1A] mb-6">How WareXhub Works</h1>
             <p className="text-[#333333] text-xl max-w-3xl mx-auto">
               Building a smarter Nepal industrial ecosystem where unused inventory from one factory becomes a valuable resource for another — helping industries reduce waste, unlock working capital, and improve operational efficiency.
             </p>
@@ -75,7 +75,7 @@ export default function HowItWorksPage() {
             <div className="relative rounded-2xl overflow-hidden bg-[#F8F8FA]">
               <img 
                 src="/Howitworks.webp" 
-                alt="WareX How It Works Infographic" 
+                alt="WareXhub How It Works Infographic" 
                 loading="lazy"
                 className="w-full h-auto object-contain transition-transform duration-700 group-hover:scale-[1.02]"
               />

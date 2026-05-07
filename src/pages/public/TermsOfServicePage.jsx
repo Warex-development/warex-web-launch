@@ -6,7 +6,7 @@ export default function TermsOfServicePage() {
     {
       title: "1. Acceptance of Terms",
       content: [
-        "By accessing or using WareX, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any of these terms, you are prohibited from using the platform.",
+        "By accessing or using WareXhub, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any of these terms, you are prohibited from using the platform.",
         "WareX reserves the right to modify these terms at any time. We will provide notice of significant changes, and your continued use of the platform constitutes acceptance of updated terms."
       ]
     },

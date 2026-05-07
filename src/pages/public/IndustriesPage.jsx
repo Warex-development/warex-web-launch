@@ -59,7 +59,7 @@ export default function IndustriesPage() {
         <div className="mt-20 glass-card p-10 text-center">
           <h2 className="text-3xl font-bold text-[#1A1A1A] mb-4">Don't See Your Industry?</h2>
           <p className="text-[#333333] mb-6 max-w-lg mx-auto">
-            WareX is expanding. We source parts for any industrial application. Contact our team and we'll set up a custom sourcing workflow for your sector.
+            WareXhub is expanding. We source parts for any industrial application. Contact our team and we'll set up a custom sourcing workflow for your sector.
           </p>
           <Link to="/contact" className="btn-primary inline-flex">
             Contact Our Team <ArrowRight className="w-4 h-4" />

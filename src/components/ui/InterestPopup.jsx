@@ -110,7 +110,7 @@ export default function InterestPopup({ isOpen, onClose, listing }) {
               Our team will contact you within 24 hours.
             </p>
             <p className="text-xs text-[#666666]">
-              Your details are shared with WareX admin only — never with the seller.
+              Your details are shared with WareXhub admin only — never with the seller.
             </p>
           </div>
         ) : (
@@ -168,7 +168,7 @@ export default function InterestPopup({ isOpen, onClose, listing }) {
               <div className="bg-[#4A3A5C]/10 border border-[#4A3A5C]/30 rounded-lg p-3 flex gap-2">
                 <AlertCircle className="w-4 h-4 text-[#4A3A5C] flex-shrink-0 mt-0.5" />
                 <p className="text-xs text-[#4A3A5C]">
-                  Your details are shared with WareX admin only — never with the seller.
+                  Your details are shared with WareXhub admin only — never with the seller.
                 </p>
               </div>
 

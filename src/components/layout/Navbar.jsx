@@ -12,7 +12,7 @@ import { useAppStore } from '../../store/appStore'
 const NAV_LINKS = [
   { to: '/', label: 'Home' },
   { to: '/how-it-works', label: 'How It Works' },
-  { to: '/why-warex', label: 'Why WareX' },
+  { to: '/why-warexhub', label: 'Why WareXhub' },
   { to: '/membership', label: 'Membership' },
   { to: '/industries', label: 'Industries' },
 ]
@@ -47,7 +47,7 @@ export default function Navbar() {
               <span className="text-white font-bold text-sm">W</span>
             </div>
             <div className="flex flex-col">
-              <span className="text-xl font-bold text-[#4A3A5C] leading-none">WareX</span>
+              <span className="text-xl font-bold text-[#4A3A5C] leading-none">WareXhub</span>
               <span className="text-[10px] font-medium text-[#4A3A5C]/60 tracking-wider">Connect • Share • Save</span>
             </div>
           </Link>

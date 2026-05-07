@@ -8,7 +8,7 @@ import LaunchingSoonPage from './pages/public/LaunchingSoonPage'
 // Public Pages
 import HomePage from './pages/public/HomePage'
 import HowItWorksPage from './pages/public/HowItWorksPage'
-import WhyWareXPage from './pages/public/WhyWareXPage'
+import WhyWareXhubPage from './pages/public/WhyWareXhubPage'
 import MembershipPage from './pages/public/MembershipPage'
 import IndustriesPage from './pages/public/IndustriesPage'
 import AboutPage from './pages/public/AboutPage'
@@ -157,7 +157,7 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/search" element={<SearchPage />} />
           <Route path="/how-it-works" element={<HowItWorksPage />} />
-          <Route path="/why-warex" element={<WhyWareXPage />} />
+          <Route path="/why-warexhub" element={<WhyWareXhubPage />} />
           <Route path="/membership" element={<MembershipPage />} />
           <Route path="/industries" element={<IndustriesPage />} />
           <Route path="/about" element={<AboutPage />} />

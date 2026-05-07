@@ -49,7 +49,7 @@ export default function AdminLayout() {
               <span className="text-white font-bold text-xs">W</span>
             </div>
             <div>
-              <span className="font-bold text-[#1A1A1A] text-base">WareX</span>
+              <span className="font-bold text-[#1A1A1A] text-base">WareXhub</span>
               <span className="text-[#4A3A5C] text-xs font-semibold ml-1.5">ADMIN</span>
             </div>
           </div>

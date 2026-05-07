@@ -161,7 +161,7 @@ export default function AddListingPage() {
       setSubmitted(true)
     } catch (error) {
       if (error.duplicate) {
-        const statusLabel = error.existing_status === 'approved' ? '✅ already live on WareX' : '⏳ already in the review queue'
+        const statusLabel = error.existing_status === 'approved' ? '✅ already live on WareXhub' : '⏳ already in the review queue'
         toast(
           <div>
             <p className="font-semibold text-amber-800">Duplicate Listing Detected</p>

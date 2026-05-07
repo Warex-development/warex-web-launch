@@ -173,7 +173,7 @@ export default function RegisterPage() {
             <div className="w-9 h-9 bg-[#4A3A5C] rounded-xl flex items-center justify-center">
               <span className="text-white font-bold">W</span>
             </div>
-            <span className="text-2xl font-bold text-white">WareX</span>
+            <span className="text-2xl font-bold text-white">WareXhub</span>
           </Link>
         </div>
         <div className="relative z-10 space-y-6">
@@ -200,7 +200,7 @@ export default function RegisterPage() {
         </div>
         <div className="relative z-10 flex items-center gap-2 text-[#a89ec9] text-sm">
           <Shield className="w-4 h-4 text-[#4A3A5C]" />
-          <span>All accounts manually verified by WareX team</span>
+          <span>All accounts manually verified by WareXhub team</span>
         </div>
       </div>
 
@@ -211,7 +211,7 @@ export default function RegisterPage() {
             <div className="w-8 h-8 bg-[#4A3A5C] rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-sm">W</span>
             </div>
-            <span className="text-xl font-bold text-[#1A1A1A]">WareX</span>
+            <span className="text-xl font-bold text-[#1A1A1A]">WareXhub</span>
           </div>
 
           {!submitted ? (
@@ -392,7 +392,7 @@ export default function RegisterPage() {
                           Non-Disclosure Agreement
                         </button>
                       </p>
-                      <p className="text-[#333333] text-xs mt-1">Keep seller and buyer identities confidential and comply with WareX NDA terms.</p>
+                      <p className="text-[#333333] text-xs mt-1">Keep seller and buyer identities confidential and comply with WareXhub NDA terms.</p>
                     </div>
                   </label>
                   {errors.nda && <p className="text-red-400 text-xs mt-3">{errors.nda.message}</p>}
@@ -424,7 +424,7 @@ export default function RegisterPage() {
                           Terms & Conditions
                         </button>
                       </p>
-                      <p className="text-[#333333] text-xs mt-1">Read and agree to WareX Terms of Service, Privacy Policy, and all applicable rules.</p>
+                      <p className="text-[#333333] text-xs mt-1">Read and agree to WareXhub Terms of Service, Privacy Policy, and all applicable rules.</p>
                     </div>
                   </label>
                   {errors.terms && <p className="text-red-400 text-xs mt-3">{errors.terms.message}</p>}

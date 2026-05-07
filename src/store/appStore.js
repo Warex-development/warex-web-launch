@@ -350,7 +350,7 @@ export const useAppStore = create(
       },
     }),
     {
-      name: 'warex-app',
+      name: 'warexhub-app',
     }
   )
 )

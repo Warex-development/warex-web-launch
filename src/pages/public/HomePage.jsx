@@ -38,15 +38,15 @@ const HOW_IT_WORKS = [
   {
     step: '02',
     title: 'Admin Reviews & Approves',
-    desc: 'Every listing is manually reviewed by the WareX team. We verify OEM numbers and pricing against manufacturer databases before going LIVE.',
+    desc: 'Every listing is manually reviewed by the WareXhub team. We verify OEM numbers and pricing against manufacturer databases before going LIVE.',
     icon: '🔍',
     color: 'from-amber-500/20 to-amber-600/5',
     border: 'border-amber-500/30',
   },
   {
     step: '03',
-    title: 'Buyer Requests → WareX Fulfills',
-    desc: 'Buyers find verified spares and request quotes. WareX facilitates the entire deal, ensuring trust, quality, and seamless fulfillment.',
+    title: 'Buyer Requests → WareXhub Fulfills',
+    desc: 'Buyers find verified spares and request quotes. WareXhub facilitates the entire deal, ensuring trust, quality, and seamless fulfillment.',
     icon: '⚡',
     color: 'from-emerald-500/20 to-emerald-600/5',
     border: 'border-emerald-500/30',
@@ -237,7 +237,7 @@ export default function HomePage() {
       <section className="py-24 page-container">
         <div className="text-center mb-16">
           <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="section-title">
-            How WareX Works
+            How WareXhub Works
           </motion.h2>
           <motion.p initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }} className="section-subtitle mx-auto">
             A three-step process designed for quality and speed.
@@ -356,7 +356,7 @@ export default function HomePage() {
               <span className="gradient-text">Parts Sourcing?</span>
             </h2>
             <p className="text-[#333333] text-lg mb-10 max-w-xl mx-auto">
-              Join 284 industrial companies already saving time and money with WareX.
+              Join 284 industrial companies already saving time and money with WareXhub.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link to="/register" className="btn-primary px-10 py-4 text-base animate-glow">

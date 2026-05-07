@@ -109,7 +109,7 @@ export default function AdminHome() {
         animate={{ opacity: 1, y: 0 }}
       >
         <h1 className="text-3xl font-bold text-[#1A1A1A] mb-1">Dashboard</h1>
-        <p className="text-[#666666]">WareX Platform Overview</p>
+        <p className="text-[#666666]">WareXhub Platform Overview</p>
       </motion.div>
 
       {/* Stats Grid */}
