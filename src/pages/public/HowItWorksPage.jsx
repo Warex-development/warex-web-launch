@@ -74,7 +74,7 @@ export default function HowItWorksPage() {
           <div className="bg-white p-4 md:p-8 rounded-3xl border border-[#E5E5E5] shadow-xl overflow-hidden group">
             <div className="relative rounded-2xl overflow-hidden bg-[#F8F8FA]">
               <img 
-                src="/Howitworks.webp" 
+                src="/HowWHworks.png" 
                 alt="WareXhub How It Works Infographic" 
                 loading="lazy"
                 className="w-full h-auto object-contain transition-transform duration-700 group-hover:scale-[1.02]"
