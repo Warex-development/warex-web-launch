@@ -64,6 +64,29 @@ export default function HowItWorksPage() {
           </motion.div>
         </div>
 
+        {/* Infographic Section */}
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="mb-20"
+        >
+          <div className="bg-white p-4 md:p-8 rounded-3xl border border-[#E5E5E5] shadow-xl overflow-hidden group">
+            <div className="relative rounded-2xl overflow-hidden bg-[#F8F8FA]">
+              <img 
+                src="/Howitworks.webp" 
+                alt="WareX How It Works Infographic" 
+                loading="lazy"
+                className="w-full h-auto object-contain transition-transform duration-700 group-hover:scale-[1.02]"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/5 to-transparent pointer-events-none" />
+            </div>
+            <div className="mt-6 text-center">
+              <p className="text-sm font-bold text-[#4A3A5C]/40 uppercase tracking-[0.3em]">Visual Process Architecture</p>
+            </div>
+          </div>
+        </motion.div>
+
         {/* Steps */}
         <div className="space-y-8 mb-24">
           {STEPS.map((step, i) => (

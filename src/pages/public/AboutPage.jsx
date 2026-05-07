@@ -40,7 +40,6 @@ export default function AboutPage() {
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <li className="flex items-center gap-3"><Shield className="w-5 h-5 text-[#4A3A5C]" /> Technical compatibility</li>
             <li className="flex items-center gap-3"><Shield className="w-5 h-5 text-[#4A3A5C]" /> Product validation</li>
-            <li className="flex items-center gap-3"><Shield className="w-5 h-5 text-[#4A3A5C]" /> Secure escrow payments</li>
             <li className="flex items-center gap-3"><Shield className="w-5 h-5 text-[#4A3A5C]" /> Safe logistics coordination</li>
             <li className="flex items-center gap-3"><Shield className="w-5 h-5 text-[#4A3A5C]" /> Trusted delivery assurance</li>
           </ul>
@@ -63,7 +62,7 @@ export default function AboutPage() {
         </div>
 
         <p className="text-xl text-center font-medium leading-relaxed">
-          Whether it is boilers, pumps, instrumentation, water treatment systems, compressors, or factory consumables — WareX creates one common platform where industries trade with confidence.
+          Whether it is boilers, pumps, instrumentation, water treatment systems, compressors, or factory consumables — WareX creates one common platform where industries trade with confidence and reliance.
         </p>
 
         <div className="text-center py-12 border-t border-[#E5E5E5]">
@@ -81,16 +80,25 @@ export default function AboutPage() {
       >
         <div className="max-w-xl mx-auto text-center">
           <h2 className="text-sm font-bold text-[#4A3A5C]/60 tracking-[0.2em] uppercase mb-12">Leadership</h2>
-          <div className="bg-white border border-[#E5E5E5] p-10 rounded-2xl shadow-sm hover:shadow-md transition group">
-            <div className="w-24 h-24 bg-[#4A3A5C]/5 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-[#4A3A5C]/10 transition">
-              <Users className="w-10 h-10 text-[#4A3A5C]" />
+          <a 
+            href="https://www.linkedin.com/in/rohit-karmakar-07244533/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="block bg-white border border-[#E5E5E5] p-10 rounded-2xl shadow-sm hover:shadow-md transition group"
+          >
+            <div className="w-24 h-24 bg-[#4A3A5C]/5 rounded-full overflow-hidden mx-auto mb-6 group-hover:scale-105 transition-transform border-2 border-[#4A3A5C]/10">
+              <img 
+                src="/RohitKarmakarWarexCEO.jpeg" 
+                alt="Rohit Karmakar" 
+                className="w-full h-full object-cover"
+              />
             </div>
-            <h3 className="text-2xl font-bold text-[#1A1A1A]">Rohit Karmakar</h3>
+            <h3 className="text-2xl font-bold text-[#1A1A1A] group-hover:text-[#4A3A5C] transition-colors">Rohit Karmakar</h3>
             <p className="text-lg text-[#4A3A5C] font-semibold mt-1">Founder & CEO</p>
             <div className="mt-6 pt-6 border-t border-[#F1F1F1] text-sm text-[#666666] italic">
               "Building the backbone of industrial efficiency through trust and transparency."
             </div>
-          </div>
+          </a>
         </div>
       </motion.section>
 

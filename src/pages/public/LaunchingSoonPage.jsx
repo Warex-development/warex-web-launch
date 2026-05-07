@@ -167,7 +167,7 @@ export default function LaunchingSoonPage() {
             </div>
 
             <div className="mt-16 max-w-3xl mx-auto flex flex-wrap justify-center gap-x-8 gap-y-4">
-              {['24/7 Admin Support', 'Escrow Payments', 'Verified Logistics', 'Technical Validation'].map((feature) => (
+              {['24/7 Admin Support', 'Verified Logistics', 'Technical Validation'].map((feature) => (
                 <div key={feature} className="flex items-center gap-2">
                   <div className="w-1.5 h-1.5 border border-[#4A3A5C] rounded-full" />
                   <span className="text-[10px] font-bold text-[#4A3A5C]/60 uppercase tracking-widest">{feature}</span>
