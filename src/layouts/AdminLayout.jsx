@@ -48,7 +48,7 @@ export default function AdminLayout() {
             <div className="w-7 h-7 bg-[#4A3A5C] rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-xs">W</span>
             </div>
-            <div>
+            <div className="flex flex-col justify-center h-7">
               <span className="font-bold text-[#1A1A1A] text-base">WareXhub</span>
               <span className="text-[#4A3A5C] text-xs font-semibold ml-1.5">ADMIN</span>
             </div>

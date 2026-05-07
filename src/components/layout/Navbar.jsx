@@ -46,7 +46,7 @@ export default function Navbar() {
             <div className="w-8 h-8 bg-[#4A3A5C] rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-sm">W</span>
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col h-8 justify-center">
               <span className="text-xl font-bold text-[#4A3A5C] leading-none">WareXhub</span>
               <span className="text-[10px] font-medium text-[#4A3A5C]/60 tracking-wider">Connect • Share • Save</span>
             </div>
