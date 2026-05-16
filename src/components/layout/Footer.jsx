@@ -89,7 +89,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-6 border-t border-[#574B66] flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-[#E8DDF5] text-xs">© 2026 WareXhub. Developed by <a href="https://brandnestagency.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">BrandNest</a>.</p>
+          <p className="text-[#E8DDF5] text-xs">© 2026 WareXhub. <a href="https://brandnestagency.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Developed by BrandNest</a></p>
           <div className="flex gap-4">
             <Link to="/privacy-policy" className="text-[#E8DDF5] text-xs hover:text-white transition-colors">Privacy Policy</Link>
             <Link to="/terms-of-service" className="text-[#E8DDF5] text-xs hover:text-white transition-colors">Terms of Service</Link>
